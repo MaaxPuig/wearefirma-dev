@@ -1,4 +1,4 @@
-# Next.js + Tailwind CSS + TypeScript Starter and Boilerplate
+# Max Puig -> Next.js + Tailwind CSS + TypeScript
 
 <div align="center">
   <h2>🔋 WareFirma Dev Test</h2>
