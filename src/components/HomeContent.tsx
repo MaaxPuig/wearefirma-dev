@@ -2,8 +2,8 @@
 
 import * as React from 'react';
 
-import herocontent1 from '/Users/maxpuig/work/wearefirma-dev/src/lib/assets/herocontent1.png';
-import homecontent2 from '/Users/maxpuig/work/wearefirma-dev/src/lib/assets/homecontent2.jpeg';
+import homecontent from '/Users/maxpuig/work/wearefirma-dev/public/assets/homecontent.png';
+import homecontent2 from '/Users/maxpuig/work/wearefirma-dev/public/assets/homecontent2.jpeg';
 
 export default function HomeContent() {
   return (
@@ -43,7 +43,7 @@ export default function HomeContent() {
           </p>
         </div>
         <div
-          style={{ backgroundImage: `url(${herocontent1.src})` }}
+          style={{ backgroundImage: `url(${homecontent.src})` }}
           className='h-[350px] w-full bg-cover  bg-center duration-500 md:h-[370px]'
         ></div>
       </section>

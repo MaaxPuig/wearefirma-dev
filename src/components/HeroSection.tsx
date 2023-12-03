@@ -3,14 +3,14 @@
 import Image from 'next/image';
 import * as React from 'react';
 
-import hero2 from '/Users/maxpuig/work/wearefirma-dev/src/lib/assets/hero2.png';
-import hero3 from '/Users/maxpuig/work/wearefirma-dev/src/lib/assets/hero3.jpeg';
-import HeroImage1 from '/Users/maxpuig/work/wearefirma-dev/src/lib/assets/HeroImage1.jpeg';
+import hero2 from '/Users/maxpuig/work/wearefirma-dev/public/assets/hero2.png';
+import hero3 from '/Users/maxpuig/work/wearefirma-dev/public/assets/hero3.jpeg';
+import HeroImage1 from '/Users/maxpuig/work/wearefirma-dev/public/assets/HeroImage1.jpeg';
 
 export default function Hero() {
   return (
     <>
-      <h1 className='mx-14 my-7 text-center text-5xl font-light text-stone-950  md:text-8xl xl:text-9xl'>
+      <h1 className=' mx-14 my-7 text-center text-5xl font-light text-stone-950  md:text-7xl xl:text-9xl'>
         Descobreix el Museu
       </h1>
 
