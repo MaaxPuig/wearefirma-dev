@@ -18,7 +18,7 @@ export default function HomePage() {
       <Head>
         <title>WeareFirma Dev Test</title>
       </Head>
-      <section className='flex w-screen flex-col bg-stone-200 px-5 pb-12 pt-3 sm:px-14 sm:py-6'>
+      <section className='flex w-screen flex-col bg-stone-200 px-5 pb-12 pt-3 sm:px-14 sm:pb-32'>
         <div className='w-full'>
           <NavBar />
         </div>

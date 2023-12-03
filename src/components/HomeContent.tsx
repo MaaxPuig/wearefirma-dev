@@ -10,7 +10,7 @@ export default function HomeContent() {
     <div className='flex h-full w-full flex-col md:flex-row '>
       <section className='flex w-full flex-col md:w-1/3 '>
         <div className='flex h-full w-full flex-col items-start justify-between gap-24 bg-stone-950 px-5  py-10 md:h-[430px] lg:px-10'>
-          <p className='w-full text-[28px] font-normal leading-[30px] text-stone-50 lg:text-[36px]  lg:leading-10'>
+          <p className='w-full text-[28px] font-normal leading-[30px] text-stone-50 lg:leading-10  xl:text-[36px]'>
             – Em va prendre uns anys aprendre a pintar com els pintors de el
             Renaixement; pintar com un nen em va portar tota una vida –
           </p>
