@@ -7,6 +7,7 @@ export default {
     extend: {
       fontFamily: {
         primary: ['Inter', ...defaultTheme.fontFamily.sans],
+        roslindale: ['Roslindale Display Condensed', 'sans-serif'],
       },
       colors: {
         primary: {

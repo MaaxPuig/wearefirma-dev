@@ -9,7 +9,7 @@ export default function HomeContent() {
   return (
     <div className='flex h-full w-full flex-col md:flex-row '>
       <section className='flex w-full flex-col md:w-1/3 '>
-        <div className='flex h-full w-full flex-col items-start justify-between gap-24 bg-stone-950 px-5  py-10 md:h-[430px] lg:px-10'>
+        <div className='flex h-full w-full flex-col items-start justify-between gap-24 bg-stone-950 px-5  py-10 lg:px-10 xl:h-[430px]'>
           <p className='w-full text-[28px] font-normal leading-[30px] text-stone-50 lg:leading-10  xl:text-[36px]'>
             – Em va prendre uns anys aprendre a pintar com els pintors de el
             Renaixement; pintar com un nen em va portar tota una vida –
@@ -44,7 +44,7 @@ export default function HomeContent() {
         </div>
         <div
           style={{ backgroundImage: `url(${homecontent.src})` }}
-          className='h-[350px] w-full bg-cover  bg-center duration-500 md:h-[370px]'
+          className='h-[350px] w-full bg-cover  bg-center duration-500 md:h-full'
         ></div>
       </section>
       <section

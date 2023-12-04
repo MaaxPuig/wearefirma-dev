@@ -10,7 +10,7 @@ import HeroImage1 from '/Users/maxpuig/work/wearefirma-dev/public/assets/HeroIma
 export default function Hero() {
   return (
     <>
-      <h1 className=' mx-14 my-7 text-center text-5xl font-light text-stone-950  md:text-7xl xl:text-9xl'>
+      <h1 className='font-roslindale mx-14 my-7 text-center text-5xl font-light text-stone-950  md:text-7xl xl:text-9xl'>
         Descobreix el Museu
       </h1>
 
