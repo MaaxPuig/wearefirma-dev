@@ -1,7 +1,7 @@
 # Max Puig -> Next.js + Tailwind CSS + TypeScript
 
 <div align="center">
-  <h2>🔋 WareFirma Dev Test</h2>
+  <h2>🔋 WeareFirma Dev Test</h2>
   <p>Next.js + Tailwind CSS + TypeScript</p>
 </div>
 
