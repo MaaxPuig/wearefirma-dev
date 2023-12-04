@@ -10,7 +10,7 @@ import HeroImage1 from '/Users/maxpuig/work/wearefirma-dev/public/assets/HeroIma
 export default function Hero() {
   return (
     <>
-      <h1 className='font-roslindale mx-14 my-7 text-center text-5xl font-light text-stone-950  md:text-7xl xl:text-9xl'>
+      <h1 className='font-roslindale mx-14 my-7 text-center text-5xl font-light text-stone-950  md:text-8xl 2xl:text-9xl'>
         Descobreix el Museu
       </h1>
 
@@ -40,7 +40,7 @@ export default function Hero() {
       <div className='flex w-full flex-col items-center justify-center pb-2 pt-9'>
         <p>Estem oberts!</p>
         <p>Dimarts a diumenge 10.00 h a 15.00 h</p>
-        <p className='border-b border-stone-950  pt-2 text-center text-base font-normal text-stone-950  opacity-40'>
+        <p className='cursor-pointer border-b border-stone-950 pt-2 text-center text-base  font-normal  text-stone-950 opacity-40 transition-opacity duration-300   hover:opacity-100'>
           Mesures Covid-19
         </p>
       </div>

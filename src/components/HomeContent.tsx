@@ -5,7 +5,7 @@ import * as React from 'react';
 import homecontent from '/Users/maxpuig/work/wearefirma-dev/public/assets/homecontent.png';
 import homecontent2 from '/Users/maxpuig/work/wearefirma-dev/public/assets/homecontent2.jpeg';
 
-export default function HomeContent() {
+export default function HomeContent({ isSmScreen }: { isSmScreen: boolean }) {
   return (
     <div className='flex h-full w-full flex-col md:flex-row '>
       <section className='flex w-full flex-col md:w-1/3 '>
@@ -14,8 +14,8 @@ export default function HomeContent() {
             – Em va prendre uns anys aprendre a pintar com els pintors de el
             Renaixement; pintar com un nen em va portar tota una vida –
           </p>
-          <p className='flex items-center  justify-start gap-4 text-start text-base font-normal  text-amber-300'>
-            Sobre Pablo Picasso
+          <p className='animate-fadein flex items-center justify-start gap-4 text-start text-base font-normal  text-amber-300'>
+            {isSmScreen ? 'Sobre Pablo Picasso' : 'Descobreix'}
             <svg
               width='21'
               height='16'
@@ -30,13 +30,13 @@ export default function HomeContent() {
                   x2='19.7647'
                   y2='7.66174'
                   stroke='#FAD647'
-                  stroke-width='1.5'
+                  strokeWidth='1.5'
                 />
                 <path
                   id='Vector 1'
                   d='M13.1776 1L19.7659 8L13.1776 15'
                   stroke='#FAD647'
-                  stroke-width='1.5'
+                  strokeWidth='1.5'
                 />
               </g>
             </svg>

@@ -1,26 +1,10 @@
 'use client';
 
 import * as React from 'react';
-import { useEffect, useState } from 'react';
 
 import NavBtn from '@/components/navigation/NavButton';
 
-export default function NavBar() {
-  const [isSmScreen, setIsSmScreen] = useState(false);
-
-  useEffect(() => {
-    const checkScreenWidth = () => {
-      setIsSmScreen(window.innerWidth <= 900);
-    };
-
-    window.addEventListener('resize', checkScreenWidth);
-
-    checkScreenWidth();
-
-    return () => {
-      window.removeEventListener('resize', checkScreenWidth);
-    };
-  }, []);
+export default function NavBar({ isSmScreen }: { isSmScreen: boolean }) {
   const topNavLinks =
     'text-sm font-normal tracking-tight hover:opacity-100 cursor-pointer transition-opacity duration-300 ease-in-out text-stone-950 opacity-50';
   const bottomNavLinks =

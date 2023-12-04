@@ -27,6 +27,19 @@
   --color-primary-900: rgb(var(--tw-color-primary-900)); /* #0c4a6e */
   /* #endregion  /**======== Primary Color =========== */
 }
+/* custom max fadein */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animated-fade-in {
+  animation: fadeIn 1s ease-in-out; /* Adjust the duration and timing function as needed */
+}
 
 @layer base {
   /* inter var - latin */

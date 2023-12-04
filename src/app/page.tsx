@@ -13,21 +13,36 @@ import NavBar from '@/components/navigation/Navigation';
 // to customize the default configuration.
 
 export default function HomePage() {
+  const [isSmScreen, setIsSmScreen] = React.useState(false);
+
+  React.useEffect(() => {
+    const checkScreenWidth = () => {
+      setIsSmScreen(window.innerWidth <= 900);
+    };
+
+    window.addEventListener('resize', checkScreenWidth);
+
+    checkScreenWidth();
+
+    return () => {
+      window.removeEventListener('resize', checkScreenWidth);
+    };
+  }, []);
   return (
-    <main>
+    <main className='animated-fade-in'>
       <Head>
         <title>WeareFirma Dev Test</title>
       </Head>
       <section className='flex w-screen flex-col bg-stone-200 px-5 pb-12 pt-3 sm:px-14 sm:pb-32'>
         <div className='w-full'>
-          <NavBar />
+          <NavBar isSmScreen={isSmScreen} />
         </div>
         <div className='w-full'>
           <Hero />
         </div>
       </section>
       <section className=' w-screen bg-stone-200 '>
-        <HomeContent />
+        <HomeContent isSmScreen={isSmScreen} />
       </section>
       <section className=' w-screen bg-stone-200 '>
         <Footer />
