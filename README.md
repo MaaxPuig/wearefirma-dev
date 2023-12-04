@@ -9,6 +9,7 @@
 
 ### 1. Clone this repo
 
+You will find all my work through the page.tsx's HomePage component :)
 
 ### 2. Install dependencies
 
