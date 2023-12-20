@@ -1,5 +1,7 @@
 'use client';
-
+declare module '*.png';
+declare module '*.jpeg';
+declare module '*.jpg';
 import Image from 'next/image';
 import hero2 from 'public/assets/hero2.png';
 import hero3 from 'public/assets/hero3.jpeg';
