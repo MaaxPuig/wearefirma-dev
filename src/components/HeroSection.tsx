@@ -3,9 +3,9 @@
 import Image from 'next/image';
 import * as React from 'react';
 
-import hero2 from '/Users/maxpuig/work/wearefirma-dev/public/assets/hero2.png';
-import hero3 from '/Users/maxpuig/work/wearefirma-dev/public/assets/hero3.jpeg';
-import HeroImage1 from '/Users/maxpuig/work/wearefirma-dev/public/assets/HeroImage1.jpeg';
+import hero2 from '/public/assets/hero2.png';
+import hero3 from '/public/assets/hero3.jpeg';
+import HeroImage1 from '/public/assets/HeroImage1.jpeg';
 
 export default function Hero() {
   return (
