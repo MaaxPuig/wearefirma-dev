@@ -33,7 +33,7 @@ export default function Hero() {
           <Image
             className='h-[200px] w-[200px] shrink-0 md:h-[410px] md:w-[410px] '
             src={hero3}
-            alt='img description'
+            alt='image description'
           />
         </li>
       </ul>
