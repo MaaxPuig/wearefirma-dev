@@ -1,9 +1,9 @@
 'use client';
 
-import hero2 from 'images/hero2.png';
-import hero3 from 'images/hero3.jpeg';
-import HeroImage1 from 'images/HeroImage1.jpeg';
 import Image from 'next/image';
+import hero2 from 'public/images/hero2.png';
+import hero3 from 'public/images/hero3.jpeg';
+import HeroImage1 from 'public/images/HeroImage1.jpeg';
 import * as React from 'react';
 
 export default function Hero() {

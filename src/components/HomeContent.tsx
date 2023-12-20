@@ -1,7 +1,7 @@
 'use client';
 
-import homecontent from 'images/homecontent.png';
-import homecontent2 from 'images/homecontent2.jpeg';
+import homecontent from 'public/images/homecontent.png';
+import homecontent2 from 'public/images/homecontent2.jpeg';
 import * as React from 'react';
 
 export default function HomeContent({ isSmScreen }: { isSmScreen: boolean }) {
