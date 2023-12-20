@@ -2,9 +2,8 @@
 
 import * as React from 'react';
 
+import homecontent from '../../public/assets/homecontent.png';
 import homecontent2 from '../../public/assets/homecontent2.jpeg';
-
-import homecontent from '/../../public/assets/homecontent.png';
 
 export default function HomeContent({ isSmScreen }: { isSmScreen: boolean }) {
   return (
